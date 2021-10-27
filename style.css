@@ -28,3 +28,10 @@
 body {
     font-family: 'Graphik LCG', sans-serif;
 }
+.container.container__border {
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+}
+.container {
+    background-color: #ffffff;
+}
