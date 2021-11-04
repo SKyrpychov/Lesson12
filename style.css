@@ -43,10 +43,13 @@ body {
 .container {
     max-width: 1330px;
     margin: 0 auto;
+}
+.header__row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
 }
 .main__logo-container {
     display: flex;
@@ -123,8 +126,11 @@ display: block;
 .login-free__button:hover {
     background-color: coral;
 }
-.container.container__intro-block {
+.intro__row {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
 }
 .intro__block-image {
     max-width: 759px;
@@ -174,9 +180,6 @@ display: block;
 .logo__block {
     background-color: #FF9C7D;
     padding: 108px 0 104px;
-}
-.container.logo__block-container {
-    display: block;
 }
 .logo__block-title {
     font-weight: 600;
