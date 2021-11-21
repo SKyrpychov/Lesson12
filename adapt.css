@@ -1,0 +1,19 @@
+/* 320 - 768 - 1330 */
+
+/* 0 - 1330 */
+@media (max-width: 1329px) {
+    .header__row {
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+        padding: 0 5px;
+    }
+}
+/* 0 - 768 */
+@media (max-width: 767px) {
+    .header__row {
+        flex-direction: column;
+        
+    }
+}
